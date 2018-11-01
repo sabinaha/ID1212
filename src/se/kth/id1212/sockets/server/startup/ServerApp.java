@@ -6,6 +6,6 @@ public class ServerApp {
     private static final int SERVER_PORT = 54321;
 
     public static void main(String[] args){
-        ServerController serverController = new ServerController(SERVER_PORT);
+        new ServerController(SERVER_PORT);
     }
 }
